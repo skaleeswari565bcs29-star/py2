@@ -1,0 +1,5 @@
+s=input("enter a sentence:")
+words=s.split()
+for w in words:
+   if len(w)>5:
+      print(w)
